@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;800&display=swap');
+
+body {
+  margin: 0;
+}
+a, p, span, h1 {
+  font-family: 'Poppins', sans-serif;
+}
+header, .body, footer {
+  padding: 4% 10%;
+}
+header {
+  padding-bottom: 0;
+  background: url('Assets/Background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a, nav ul li button, nav ul li img {
+  margin-left: 30px;
+}
+a {
+  text-decoration: none;
+}
+p, a {
+  color: rgb(30, 30, 30);
+}
+li input {
+  display: none;
+  padding-left: 20px;
+  width: 190px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 50px;
+  transition: .5s;
+}
+button {
+  width: 180px;
+  height: 50px;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  transition: .5s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: transparent;
+  color: #000;
+  border-radius: 50px;
+  border: 1px solid #000;
+  transition: .5s;
+}
+span {
+  font-weight: normal;
+  opacity: .8;
+}
+.hero-section {
+  margin: auto;
+  margin-bottom: 80px;
+  width: 620px;
+}
+.hero-section h1 {
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 0;
+}
+.hero-image {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -5px;
+}
+
+/* Body Section */
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.body-text {
+  width: 540px;
+  margin-top: 50px;
+}
+.body-text h1 {
+  font-size: 29px;
+}
+.body-image {
+  height: 100%;
+  width: 100%;
+}
+.body img {
+  width: 45%;
+}
+
+/* Footer Section */
+
+footer div {
+  display: inline-block;
+}
+.footer-links {
+  float: right;
+}
+.footer-links a {
+  margin-left: 30px;
+}
